@@ -2,7 +2,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/j6gj0s0oorugwscm?svg=true)](https://ci.appveyor.com/project/blackseliger/image-dnd)
 
 
-GP :rocket: https://blackseliger.github.io/Popovers/ :rocket:
+GP :rocket: https://blackseliger.github.io/Image-DnD/ :rocket:
 
 **Important!**
 
