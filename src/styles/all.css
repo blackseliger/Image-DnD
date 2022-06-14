@@ -1,0 +1,9 @@
+@import url("common.css");
+
+/* Styles for components  */
+/* components */
+@import url(../components/table/style.css);
+
+/* Styles for pages  */
+/* pages */
+@import url("../pages/style.css");

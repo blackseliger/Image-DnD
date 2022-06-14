@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<meta charset="utf-8">
+
+<head>
+    <title>static</title>
+    <link rel="apple-touch-icon-precomposed" href="../../assets/favicon/apple-touch-icon-precomposed.png">
+    <link rel="icon" href="../../assets/favicon/favicon.png">
+    <link rel="stylesheet" href="../table/style.css">
+</head>
+
+<body>
+
+    <main class="main">
+        <div class="table">
+            <div class="container">
+                <div class="table__header">
+                    <button class="button button_primary table__button ">
+                        Добавить тикет
+                    </button>
+                </div>
+                <div class="table__content">
+                    <div class="table__content-body-row table__content-row">
+                        <div class="table__content-brief">
+                            <div class="table__content-cell">
+                                <div class="table__icon-accordion">
+                                    <img src="/src/assets/icons/handleAccodion.svg" class="table__icon-img" data-element="handleOpen" alt="">
+                                </div>    
+
+                                <p></p>
+                            </div>
+                            <div class="table__content-cell">60000</div>
+                            <div class="table__content-cell table__content-cell-icons">
+                                <div class="table__icon">
+                                    <img src="/src/assets/icons/handleEdit.svg" alt="">
+                                </div>
+                                <div class="table__icon">
+                                    <img src="/src/assets/icons/handleDelete.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__detailed ">
+                            <p>DETAILED DETAILE DETAILEEEEDD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form class="form-group">
+            <div class="form-group_icon">
+                <img src="/src/assets/icons/handleDelete.svg" data-element="hideForm" alt="">
+            </div>
+            <div class="from-group__title">Добавить тикет</div>
+            <label for="name" class="form-group__label">Краткое описание</label>
+            <div class="form-group__input">
+                <input class="form-group__control" type="text" id="name" placeholder="Placeholder">
+            </div>
+            <label for="price" class="form-group__label">Подробное описание</label>
+            <div class="form-group__input">
+                <input class="form-group__control" type="text" id="price" placeholder="Placeholder">
+            </div>
+            <div class="form-group__buttons">
+                <button class="button button_primary">
+                    Сохранить
+                </button>
+                <input name="reset" class="button button_primary" type="reset" value="Reset">
+            </div>
+        </form>
+        <form class="form-group form-group_hidden">
+            <div class="from-group__title">Удалить тикет</div>
+            <div class="form-group__delete">Вы уверены, что хотите удалить тикет? Это действие необратимо</div>
+            <div class="form-group__buttons">
+                <button class="button button_primary">Ок</button>
+                <div class="button button_primary">Отмена</div>
+            </div>
+        </form>
+    </main>
+</body>
+
+
+<!-- "/assets/icons/handleAdd.svg" -->
